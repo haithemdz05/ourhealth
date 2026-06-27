@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+ }
+ ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/* ===================================== */
+#hero{
+  background-color:#ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.navigation{
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   max-width: 1300px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 5px 0px;
+  height: 70px;
+
+}
+.logo{
+  width: 200px;
+}
+.menu{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.menu li a{
+  margin: 0px 20px;
+  color:#303030;
+  font-weight: 500;
+  transition: all ease 0.3s;
+}
+
+.menu li a:hover{
+  color: #014dd5;
+}
+.nav-appointment-btn{
+  height: 40px;
+  padding: 0px 20px;
+  border-radius:4px;
+  background-color: #014dd5;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+#list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 75px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  transition: 0.5s;
+}
+#check{
+  display: none;
+}
+@media(max-width:970px){
+    a.logo{
+      width:100px;
+    }
+    li a{
+      font-size:15px;
+    }
+    .nav-appointment-btn{
+      width: 100px;
+      font-size: 10px;
+    }
+}
+@media(max-width:866px){
+  .checkbtn {
+    display: block;
+  }
+
+  .navigation {
+    height: 80px;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 34, 0);
+    top: 80px;
+    right: -100%; /* جعلها مخفية في البداية */
+    text-align: center;
+    transition: all 0.1s;
+  }
+
+  .menu li {
+    display: block;
+    margin: 50px 0px;
+    line-height: 30px;
+  }
+
+  .menu li a {
+    font-size: 20px;
+  }
+
+
+  #check:checked ~.navigation ul  {
+    right: 0;
+} 
+}
+ body {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+ }
+ /* =============== section1 =================== */
+ .section1{
+    height: 700px;
+  width: 100%;
+  background-color: #262e7ff5;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px #676869;
+ }
+ #title{
+    width: 50%;
+    text-align: center;
+    margin-right: 90px;
+    line-height: 1.3;
+    padding: 20px;
+    background-color: #fff;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    transition: all 0.8s ease-in;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  
+ }
+ #title:hover{
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+ }
+ #title h1,h2,h6{
+  font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+ }
+ #title p{
+  margin-top: 30px;
+    color: rgba(18, 18, 18, 0.666);
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+ }
+ .card{
+    width: 60%;
+    height: 70vh;
+    /* margin: 20px auto; */
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .card img{
+    width: 400px;
+ } 
+ #formule{
+    height: 190PX;
+    width: 490px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* background-color: red; */
+ }
+ label,input{
+    margin: 10px;
+    font-family: "Winky Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:500;
+      font-size: 20px;
+      font-style: normal;
+ }
+ input[type='text']{
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: #087de456 2px solid;
+    padding: 5px;
+    transition: all 0.1s ease-in;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ input[type='text']:hover{
+  border-bottom: #087de4 2.5px solid;
+ }
+ input[type="submit"]{
+ padding:5px;
+ width: 150px;
+ font-size: 17px;
+background-color: #014dd5;
+border: none;
+color: white;
+ }
+ input[type='submit']:hover{
+    cursor: pointer;
+    background-color: #1b63de;
+ }

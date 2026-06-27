@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+    
+ }
+ ul{
+   list-style: none;
+ }
+ a{
+   text-decoration: none;
+   color: white;
+ }
+ hr{
+  height: 20px;
+  background-color: #0c816a3c;
+  margin-top: 10px;
+  border: none;
+ }
+ /* ===================================== */
+ #hero{
+  background-color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100px; */
+ 
+}
+.navigation{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1300px;
+  width: 99%;
+  margin: 0px auto;
+  padding: 5px 0px;
+  /* background-color: red; */
+
+}
+.logo{
+  width: 200px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 15%;
+  /* background-color: #014dd5; */
+}
+.menu li a{
+  margin: 0px 20px;
+  color:#262525;
+  font-weight: 500;
+  transition: all ease 0.3s;
+}
+.menu li a:hover{
+  color: #014dd5;
+}
+.nav-appointment-btn{
+  height: 40px;
+  padding: 0px 20px;
+  border-radius:4px;
+  background-color: #014dd5;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+/* =========== section1================ */
+ .section1{
+   width: 100%;
+   height: 300px;
+   /* background-color: #303030bd; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+#medical_treatment_time{
+background-color: #014fd500;
+width: 45%;
+height: 250px;
+margin-left: 0px;
+display: flex;
+justify-content: space-between;
+ }
+ #medical_treatment_time img{
+   width: 300px;
+   height: 300px;
+   margin-left: 0px;
+ }
+ #medical_treatment_time h1{
+ margin-top: 100px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #ffffff;
+ }
+ #medical_treatment_time h1 span{
+   white-space: nowrap;
+   color:#00ff04fd;
+   font-weight: 600;
+ }
+ 
+ .section2{
+   /* background-color: rgba(255, 0, 0, 0); */
+   width: 100%;
+   height: 300px;
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ #card1{
+   /* background-color: #009dffcb; */
+   height: 150px;
+   width: 290px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0px 4px 4px 4px #6464644c;
+   color: black;
+   transition: transform 0.3s;
+ }
+ #card1 img{
+   width: 90px;
+   height: 90px;
+ }
+ #card1 h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-weight: 900;
+ }
+ #card1:hover {
+  transform: scale(1.05);
+}
+ #card2{
+   /* background-color: #009dffcb; */
+   height: 150px;
+   width: 290px;
+   text-align: center;
+   border-radius: 10px; 
+   box-shadow: 0px 4px 4px 4px #6464644c;
+   color: black;
+   transition: transform 0.3s;
+ }
+ #card2 img{
+   width:190px;
+   height: 190px;
+   margin-top: -49px
+ }
+ #card2 h1{
+   margin-top: -70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: 900;
+ }
+ #card2:hover {
+  transform: scale(1.05);
+}
+ #card3{
+   /* background-color: #009dffcb; */
+   height: 150px;
+   width: 290px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0px 4px 4px 4px #6464644c;
+   color: black;
+   transition: transform 0.3s;
+ }
+ #card3 img{
+   width: 120px;
+   height: 90px;
+ }
+ #card3 h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-weight: 900;
+ }
+ #card3:hover {
+  transform: scale(1.05);
+}
+/* ============================================== */
+ .section3{
+  height: 200px;
+  width: 100%;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+ #card2-page{
+  background-color: #0daaadcd;
+  border-radius:20px ;
+  width: 350px;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* box-shadow: 0px 4px 4px #676869; */
+ }
+ #card2-page img{
+  width: 120px;
+   height: 120px;
+  
+ }
+ #card2-page h1{
+  margin-right: 20px;
+  color: white;
+ }
+ /* __________________________________________________________ */
+ /* .section4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+} */
+.section4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* أو space-between حسب رغبتك */
+  gap: 20px; /* مسافة بين البطاقات */
+}
+.card {
+   background: #fff; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  flex: 1 1 22%; /* أو width: 22%; */
+  min-width: 220px; /* حتى لا تصغر كثيراً في الشاشات الصغيرة */
+  max-width: 300px;
+  box-sizing: border-box;
+   text-align: left;
+  margin-top: 10px;
+  margin: 12px;
+}
+@media (max-width: 1000px) {
+  .card {
+    flex: 1 1 45%;
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 90%;
+  }
+}
+/* .card {
+  background: #fff; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  width: 300px;
+  text-align: left;
+  margin-top: 10px;
+  margin: 12px;
+} */
+.card h2{
+  border-bottom:1px solid #3333334b ;
+  color: #009dffe4;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+li b{
+  color: #093a6ff0;
+}
+
+.time_vac label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+.time_vac input,
+.time_vac textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  font-size: 16px;
+}
+
+.time_vac textarea {
+  height: 80px; /* تحديد ارتفاع مناسب */
+  margin-top: 20px;
+}
+
+.time_vac input:focus,
+.time_vac textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #fff;
+}
+
+@media (max-width: 480px) {
+  .time_vac {
+      width: 100%;
+      padding: 15px;
+  }
+}
+#titre{
+  width: 100%;
+  margin-top: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+#titre img{
+  width: 50px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+#titre h1{
+  margin-top: 0px;
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
+.section5 {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f4f4f9; */
+}
+table {
+  width: 80%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#current{
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+}
+#history{
+  background-color: #1a98bb;
+  color: white;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+th {
+  font-size: 16px;
+}
+
+td {
+  font-size: 14px;
+}

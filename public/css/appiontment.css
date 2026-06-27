@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     font-family: "Winky Sans", sans-serif;
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    
+   
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.518);
+    /* box-shadow: 4px 4px 15px rgba(74, 74, 74, 0.048); */
+    height: 600px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom:80px;
+}
+#title{
+    width: 40%;
+}
+#title h6{
+    width: 70%;
+    line-height: 20px;
+}
+#title img{
+    width: 100%;
+}
+
+.form1 {
+    
+    padding: 20px;
+  
+    width: 60%;
+   
+}
+.appointment{
+    width: 100%;
+}
+/* Table Styling */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+tr:hover {
+    background-color: #b9b9b9;
+}
+/*  section2 */
+.section2{
+    padding: 20px;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+h1, h6 {
+    margin: 5px 0;
+    color: #333;
+}
+.form2{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.form2 div{
+    width: 50%;
+}
+.form2 img {
+    display: block;
+    margin: 0 auto 10px;
+    border: 3px solid #007BFF;
+}
+
+.form2 h1, .form2 h6 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.form2 input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+.section1 {
+    border-radius: 18px;
+    padding: 30px 20px 40px 20px;
+    margin: 40px auto 0 auto;
+    width: 100%;
+    box-shadow: 0 4px 24px rgba(23,100,136,0.08);
+}
+.table th, .table td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+.table thead th {
+    background: #0999dcbd !important;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+.btn-success {
+    background: #176488 !important;
+    border: none;
+}
+.btn-success:hover {
+    background: #14506b !important;
+}

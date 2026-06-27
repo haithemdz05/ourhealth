@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+   
+ }
+ body {
+    width: 100%;
+    height: 100vh;
+ }
+ .content{
+width: 100%;
+height: 100vh;
+ }
+ /* ====== section 1 ======= */
+ .section1{
+    background-color: #4450d5;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+ }
+ .section1 img{
+ width: 90px;
+ }
+ .section1 h1{
+    font-size: 33px;
+ }
+ /* ===== section 2 ========= */
+ .section2{
+    /* background-color: red; */
+    height: 520px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+
+ }
+ .section2 h1{
+    font-size:20px ;
+    text-wrap: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+}
+.right{
+    width: 50%;
+    /* background-color: blue; */
+}
+.left{
+    width: 50%;
+    /* background-color: rgb(20, 222, 67); */
+    margin-top: 25px;
+}
+.section2 input{
+    width: 50%;
+    padding:5px;
+    margin-left: 10px;
+border: none;
+border-bottom:  black 2px solid;
+outline: none;
+font-size: 20px;
+color: rgb(3, 87, 171);
+}
+label{
+    display: block;
+}
+
+
+.section2 .left div,.section2 .right div{
+margin-bottom: 20px;
+margin-top: 20px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    height: 30px;
+    background-color: rgba(46, 55, 138, 0.312);
+    border: none;
+}
+/* ======= section 3 ======= */
+.section3{
+   
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+ }
+ /* .section3 #title{
+   width: 100%;
+ } */
+ #title{
+    display: flex;
+    height: 35px;
+ }
+ .section3 div img{
+    width: 40px;
+ }
+ .section3 h1{
+    font-size:20px ;
+    margin-left: 15px;
+    text-wrap: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    display: inline;
+}
+#medication{
+   margin-top: 30px;
+   /* background-color: red; */
+   height: 300Px;
+}
+ .table-m {
+   width: 80%;
+   margin-top: 20px;
+   border-collapse: collapse;
+   background-color: rgb(71, 15, 237);
+   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+   border-radius: 10px;
+   text-align: center;
+   color: white;
+ }
+ 
+ table th, td {
+   padding: 12px;
+ border: 1px solid #ddd;
+ }
+ #NH{
+   width: 70%;
+   height: 90px;
+   padding: 5px;
+   font-size: 19px;
+ }
+/* ===== section 4 ======== */
+.section4{
+    height: 520px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+ }
+ #title{
+    display: flex;
+    height: 35px;
+ }
+ #title{
+    width: 790px;
+ }
+ .right{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    margin-top: 25px;
+}
+.section4 label{
+    margin-top: 25px;
+}
+.section4 input{
+    width: 50%;
+    padding:5px;
+    margin-left: 10px;
+    border: none;
+    border-bottom:  black 2px solid;
+    outline: none;
+    font-size: 20px;
+    color: rgb(3, 87, 171);
+}
+.section4 .left div,.section2 .right div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+ .section4 h1{
+    font-size:20px ;
+    margin-left: 15px;
+    text-wrap: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    display: inline;
+} 
+
+ input[type='submit']{
+   width: 170px;
+   margin-top: 0px;
+   padding: 5px;
+   font-size: 20px;
+   background-color: #0095ff;
+   border: none;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ #vaccination{
+   margin-top: 30px;
+   padding: 12px;
+   background-color: #27cd0dca;
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+   margin-left: 75px;
+   width: 170px;
+   margin-top: 150px;
+}
